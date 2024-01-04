@@ -44,6 +44,13 @@ header .name {
 	width: 20px;
 }
 
+.carousel-item {
+	img {
+		max-width: 75%;
+		margin: auto;
+	}
+}
+
 #about {
 	display: flex;
 	background-color: #F6D2B8;
