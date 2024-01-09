@@ -165,7 +165,7 @@ header .name {
 .quote__text {
 	font-family: Spectral;
 	font-style: italic;
-	font-size: xx-large ;
+	font-size: xx-large;
 }
 
 .quote__author {
@@ -243,30 +243,35 @@ form {
 	flex-direction: column;
 	width: 70%;
 	align-items: flex-start;
+
+	button {
+		background-color: #BEB45A;
+		padding: .5em 1em;
+		margin: auto;
+	}
+
+	input {
+		width: 100%;
+		background-color: transparent;
+		border: solid 1px;
+		height: 2.5em;
+		margin-bottom: 20px;
+	}
+
+	textarea {
+		width: 100%;
+		background-color: transparent;
+		border: solid 1px;
+		height: 5em;
+		line-height: 2.5em;
+		font-size: 1.2em;
+		margin-bottom: 20px;
+	}
 }
 
-form input {
-	width: 100%;
-	background-color: transparent;
-	border: solid 1px;
-	height: 2.5em;
-	margin-bottom: 20px;
-}
-
-form textarea {
-	width: 100%;
-	background-color: transparent;
-	border: solid 1px;
-	height: 5em;
-	line-height: 2.5em;
-	font-size: 1.2em;
-	margin-bottom: 20px;
-}
-
-input[type="submit"] {
-	background-color: #BEB45A;
-	padding: .5em 1em
-}
+/* input[type="submit"] {
+	
+} */
 
 @media all and (max-width: 1180px) {
 	.picture {
@@ -276,6 +281,12 @@ input[type="submit"] {
 	#about,
 	#contact .container {
 		align-items: center;
+	}
+
+	.quote__text {
+		font-family: Spectral;
+		font-style: italic;
+		font-size: x-large;
 	}
 
 	.about-me__title {
@@ -312,6 +323,12 @@ input[type="submit"] {
 	.about-me__title {
 		text-align: center;
 		margin-top: 1em;
+	}
+
+	.quote__text {
+		font-family: Spectral;
+		font-style: italic;
+		font-size: large;
 	}
 
 	#services .container {
@@ -377,6 +394,12 @@ input[type="submit"] {
 	.picture.left::before,
 	.picture.right::before {
 		height: 150px;
+	}
+
+	.quote__text {
+		font-family: Spectral;
+		font-style: italic;
+		font-size: medium;
 	}
 
 	#services .container {
